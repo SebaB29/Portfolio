@@ -1,0 +1,42 @@
+export const portfolioData = {
+  name: "Sebastián Brizuela",
+  title: "Estudiante de Ingeniería Informática",
+  availability: "Full-time",
+  email: "sebita29@gmail.com",
+  phone: "1130410888",
+  linkedin: "https://www.linkedin.com/in/sbrizuela/",
+  github: "https://github.com/SebaB29",
+  description: "Soy estudiante de Ingeniería Informática en la Universidad de Buenos Aires, buscando mi primer empleo como Desarrollador trainee o junior. Estoy interesado en aprender y crecer en el ámbito de la tecnología, y busco un entorno colaborativo para seguir capacitándome.",
+  longDescription: "Me desempeño bien en trabajos en equipo y tengo un interés particular en áreas como la ciencia de datos y la ciberseguridad. Estoy abierto a colaborar con profesionales experimentados y aprender de ellos mientras aporto mi dedicación y compromiso.",
+  education: [
+    {
+      degree: "Ingeniería Informática",
+      institution: "Universidad de Buenos Aires",
+      status: "Cursando actualmente",
+    },
+    {
+      degree: "Bachiller en Ciencias Sociales",
+      institution: "Colegio Martín y Omar",
+      status: "Egresado",
+    },
+  ],
+  languages: ["Python", "C++", "C", "SQL", "Java", "Rust"],
+  tools: ["GIT", "Github", "Gitlab", "Jira", "Trello", "Postman"],
+  knowledge: [
+    "Programación Orientada a Objetos",
+    "Test-Driven Development (TDD)",
+    "Debugging",
+    "Análisis de Datos",
+    "Machine Learning",
+    "Scrum",
+    "TDA (Pila, Cola, Lista, Árbol, Grafo)",
+  ],
+  repositories: [
+    { name: "MyFiubaGymBro", url: "https://github.com/SebaB29/MyFiubaGymBro", description: "Gestor de gimnasios para la facultad." },
+    { name: "ReservasHoteles", url: "https://github.com/SebaB29/ReservasHoteles", description: "Sistema de reservas de hoteles." },
+    { name: "Tetris", url: "https://github.com/SebaB29/Tetris", description: "Implementación del clásico juego Tetris." },
+    { name: "Snake", url: "https://github.com/SebaB29/Snake", description: "Implementación del clásico juego Snake." },
+    { name: "CriticasPeliculas", url: "https://github.com/SebaB29/CriticasPeliculas", description: "Plataforma para crítica de películas." },
+    { name: "Andypolis", url: "https://github.com/SebaB29/Andypolis", description: "Juego de simulación de ciudad." },
+  ],
+};
