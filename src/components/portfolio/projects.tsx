@@ -1,21 +1,21 @@
 import { portfolioData } from '@/lib/portfolio-data';
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
   CardFooter,
 } from '@/components/ui/card';
-import { Github } from 'lucide-react';
+import { FolderKanban, Github } from 'lucide-react';
 import { Button } from '../ui/button';
 
 export function Projects() {
   return (
     <section id="projects" className="scroll-mt-20">
-      <h2 className="mb-8 text-center text-3xl font-bold">
-        Proyectos Destacados
-      </h2>
+      <div className="flex items-center justify-center gap-4 mb-8">
+        <FolderKanban className="h-8 w-8 text-primary" />
+        <h2 className="text-3xl font-bold">Proyectos Destacados</h2>
+      </div>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {portfolioData.repositories.map((repo) => (
           <a
