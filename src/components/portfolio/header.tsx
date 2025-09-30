@@ -2,7 +2,15 @@
 import { portfolioData } from '@/lib/portfolio-data';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Briefcase, Github, Linkedin, Mail, Phone } from 'lucide-react';
+import {
+  Menu,
+  Briefcase,
+  Github,
+  Linkedin,
+  Mail,
+  Phone,
+  Download,
+} from 'lucide-react';
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -82,9 +90,9 @@ export function Hero() {
         <Image
           src="/foto-perfil.jpg"
           alt="Foto de Sebastián Brizuela"
-          width={200}
-          height={200}
-          className="h-52 w-52 rounded-full border-4 border-primary object-cover"
+          width={240}
+          height={240}
+          className="h-60 w-60 rounded-full border-4 border-primary object-cover"
           priority
         />
       </div>
@@ -98,6 +106,16 @@ export function Hero() {
         <Briefcase className="h-4 w-4 text-accent" />
         <span>Disponibilidad: {portfolioData.availability}</span>
       </div>
+
+      <div className="mt-8 flex justify-center">
+        <a href="/Sebastian_Brizuela_CV.pdf" download>
+          <Button>
+            <Download className="mr-2 h-4 w-4" />
+            Descargar CV
+          </Button>
+        </a>
+      </div>
+
       <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-4">
         <div className="flex items-center gap-2">
           <Mail className="h-5 w-5" />
