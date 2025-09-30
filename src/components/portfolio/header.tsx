@@ -32,7 +32,13 @@ export function Header() {
           </ul>
         </nav>
       </div>
-      <div className="container py-16 text-center">
+    </header>
+  );
+}
+
+export function Hero() {
+  return (
+    <section id="hero" className="py-16 text-center">
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
           {portfolioData.name}
         </h1>
@@ -69,7 +75,6 @@ export function Header() {
             </a>
           </Button>
         </div>
-      </div>
-    </header>
+    </section>
   );
 }

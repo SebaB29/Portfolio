@@ -1,4 +1,4 @@
-import { Header } from '@/components/portfolio/header';
+import { Header, Hero } from '@/components/portfolio/header';
 import { About } from '@/components/portfolio/about';
 import { Skills } from '@/components/portfolio/skills';
 import { Projects } from '@/components/portfolio/projects';
@@ -12,6 +12,7 @@ export default function Home() {
       <Header />
       <main className="container mx-auto flex-1 px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl space-y-20">
+          <Hero />
           <About />
           <Skills />
           <Projects />
