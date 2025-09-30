@@ -33,7 +33,7 @@ export function Projects() {
                 </CardDescription>
               </CardHeader>
               <CardFooter>
-                <Button variant="ghost" className="text-accent">
+                <Button variant="link" className="text-accent p-0 h-auto">
                   <Github className="mr-2 h-4 w-4" />
                   Ver en GitHub
                 </Button>

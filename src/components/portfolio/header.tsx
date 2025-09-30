@@ -26,7 +26,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <a
           href="#"
-          className="text-lg font-bold text-primary transition-colors hover:text-primary/90"
+          className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent transition-colors hover:from-primary/90 hover:to-accent/90"
         >
           {portfolioData.name}
         </a>
@@ -53,7 +53,7 @@ export function Header() {
               <a
                 href="#"
                 onClick={handleLinkClick}
-                className="text-lg font-bold text-primary"
+                className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent"
               >
                 {portfolioData.name}
               </a>
@@ -88,7 +88,7 @@ export function Hero() {
           priority
         />
       </div>
-      <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+      <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-foreground to-muted-foreground">
         {portfolioData.name}
       </h1>
       <p className="mt-4 text-lg text-muted-foreground sm:text-xl">
