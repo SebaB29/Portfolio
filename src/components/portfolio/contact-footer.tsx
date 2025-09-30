@@ -10,20 +10,14 @@ export function ContactFooter() {
           ¡No dudes en contactarme!
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-4">
-          <a
-            href={`mailto:${portfolioData.email}`}
-            className="flex items-center gap-2 transition-colors hover:text-primary"
-          >
+          <div className="flex items-center gap-2">
             <Mail className="h-5 w-5" />
             <span>{portfolioData.email}</span>
-          </a>
-          <a
-            href={`tel:${portfolioData.phone}`}
-            className="flex items-center gap-2 transition-colors hover:text-primary"
-          >
+          </div>
+          <div className="flex items-center gap-2">
             <Phone className="h-5 w-5" />
             <span>{portfolioData.phone}</span>
-          </a>
+          </div>
           <a
             href={portfolioData.linkedin}
             target="_blank"

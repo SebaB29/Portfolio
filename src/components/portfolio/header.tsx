@@ -49,31 +49,33 @@ export function Hero() {
           <Briefcase className="h-4 w-4 text-accent" />
           <span>Disponibilidad: {portfolioData.availability}</span>
         </div>
-        <div className="mt-8 flex justify-center gap-4">
-          <Button variant="outline" size="icon" asChild>
-            <a href={portfolioData.linkedin} target="_blank" rel="noreferrer">
-              <Linkedin className="h-5 w-5" />
-              <span className="sr-only">LinkedIn</span>
-            </a>
-          </Button>
-          <Button variant="outline" size="icon" asChild>
-            <a href={portfolioData.github} target="_blank" rel="noreferrer">
-              <Github className="h-5 w-5" />
-              <span className="sr-only">GitHub</span>
-            </a>
-          </Button>
-          <Button variant="outline" size="icon" asChild>
-            <a href={`mailto:${portfolioData.email}`}>
-              <Mail className="h-5 w-5" />
-              <span className="sr-only">Email</span>
-            </a>
-          </Button>
-          <Button variant="outline" size="icon" asChild>
-            <a href={`tel:${portfolioData.phone}`}>
-              <Phone className="h-5 w-5" />
-              <span className="sr-only">Phone</span>
-            </a>
-          </Button>
+        <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-4">
+          <a
+            href={portfolioData.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 transition-colors hover:text-primary"
+          >
+            <Linkedin className="h-5 w-5" />
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href={portfolioData.github}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 transition-colors hover:text-primary"
+          >
+            <Github className="h-5 w-5" />
+            <span>GitHub</span>
+          </a>
+          <div className="flex items-center gap-2">
+            <Mail className="h-5 w-5" />
+            <span>{portfolioData.email}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Phone className="h-5 w-5" />
+            <span>{portfolioData.phone}</span>
+          </div>
         </div>
     </section>
   );
