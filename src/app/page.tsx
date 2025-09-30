@@ -5,6 +5,7 @@ import { Skills } from '@/components/portfolio/skills';
 import { Projects } from '@/components/portfolio/projects';
 import { Education } from '@/components/portfolio/education';
 import { ContactFooter } from '@/components/portfolio/contact-footer';
+import { Separator } from '@/components/ui/separator';
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
         <div className="mx-auto max-w-4xl space-y-20">
           <Hero />
           <About />
+          <Separator className="bg-border/40" />
           <Education />
+          <Separator className="bg-border/40" />
           <Skills />
           <Projects />
         </div>

@@ -1,5 +1,4 @@
 import { portfolioData } from '@/lib/portfolio-data';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Code, Wrench, BrainCircuit } from 'lucide-react';
 
@@ -10,7 +9,7 @@ const SectionTitle = ({
   icon: React.ReactNode;
   children: React.ReactNode;
 }) => (
-  <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-foreground">
+  <h3 className="mb-4 flex items-center gap-3 text-xl font-semibold text-foreground">
     {icon}
     {children}
   </h3>
@@ -19,13 +18,13 @@ const SectionTitle = ({
 export function Skills() {
   return (
     <section id="skills" className="scroll-mt-20">
-      <Card>
-        <CardHeader>
-          <CardTitle>Habilidades Técnicas</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-8">
+      <h2 className="mb-8 text-center text-3xl font-bold">
+        Habilidades Técnicas
+      </h2>
+      <div className="space-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
-            <SectionTitle icon={<Code className="text-accent" />}>
+            <SectionTitle icon={<Code className="text-accent h-6 w-6" />}>
               Lenguajes
             </SectionTitle>
             <div className="flex flex-wrap gap-2">
@@ -33,7 +32,7 @@ export function Skills() {
                 <Badge
                   key={lang}
                   variant="secondary"
-                  className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors"
+                  className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors text-sm px-3 py-1"
                 >
                   {lang}
                 </Badge>
@@ -41,7 +40,7 @@ export function Skills() {
             </div>
           </div>
           <div>
-            <SectionTitle icon={<Wrench className="text-accent" />}>
+            <SectionTitle icon={<Wrench className="text-accent h-6 w-6" />}>
               Herramientas
             </SectionTitle>
             <div className="flex flex-wrap gap-2">
@@ -49,31 +48,31 @@ export function Skills() {
                 <Badge
                   key={tool}
                   variant="secondary"
-                  className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors"
+                  className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors text-sm px-3 py-1"
                 >
                   {tool}
                 </Badge>
               ))}
             </div>
           </div>
-          <div>
-            <SectionTitle icon={<BrainCircuit className="text-accent" />}>
-              Conocimientos
-            </SectionTitle>
-            <div className="flex flex-wrap gap-2">
-              {portfolioData.knowledge.map((skill) => (
-                <Badge
-                  key={skill}
-                  variant="secondary"
-                  className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors"
-                >
-                  {skill}
-                </Badge>
-              ))}
-            </div>
+        </div>
+        <div>
+          <SectionTitle icon={<BrainCircuit className="text-accent h-6 w-6" />}>
+            Conocimientos
+          </SectionTitle>
+          <div className="flex flex-wrap gap-2">
+            {portfolioData.knowledge.map((skill) => (
+              <Badge
+                key={skill}
+                variant="secondary"
+                className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors text-sm px-3 py-1"
+              >
+                {skill}
+              </Badge>
+            ))}
           </div>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
     </section>
   );
 }
