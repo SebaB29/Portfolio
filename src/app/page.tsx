@@ -1,3 +1,4 @@
+'use client';
 import { Header, Hero } from '@/components/portfolio/header';
 import { About } from '@/components/portfolio/about';
 import { Skills } from '@/components/portfolio/skills';
