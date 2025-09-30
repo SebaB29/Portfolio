@@ -7,6 +7,10 @@ import { Education } from '@/components/portfolio/education';
 import { ContactFooter } from '@/components/portfolio/contact-footer';
 import { Separator } from '@/components/ui/separator';
 
+const SectionSeparator = () => (
+  <div className="my-16 h-px w-full bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+);
+
 export default function Home() {
   return (
     <div className="flex min-h-dvh w-full flex-col">
@@ -15,10 +19,11 @@ export default function Home() {
         <div className="mx-auto max-w-4xl space-y-20">
           <Hero />
           <About />
-          <Separator className="bg-border/40" />
+          <SectionSeparator />
           <Education />
-          <Separator className="bg-border/40" />
+          <SectionSeparator />
           <Skills />
+          <SectionSeparator />
           <Projects />
         </div>
       </main>
