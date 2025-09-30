@@ -23,37 +23,39 @@ export function Skills() {
         <CardHeader>
           <CardTitle>Habilidades Técnicas</CardTitle>
         </CardHeader>
-        <CardContent className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          <div>
-            <SectionTitle icon={<Code className="text-accent" />}>
-              Lenguajes
-            </SectionTitle>
-            <div className="flex flex-wrap gap-2">
-              {portfolioData.languages.map((lang) => (
-                <Badge
-                  key={lang}
-                  variant="secondary"
-                  className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors"
-                >
-                  {lang}
-                </Badge>
-              ))}
+        <CardContent className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <SectionTitle icon={<Code className="text-accent" />}>
+                Lenguajes
+              </SectionTitle>
+              <div className="flex flex-wrap gap-2">
+                {portfolioData.languages.map((lang) => (
+                  <Badge
+                    key={lang}
+                    variant="secondary"
+                    className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors"
+                  >
+                    {lang}
+                  </Badge>
+                ))}
+              </div>
             </div>
-          </div>
-          <div>
-            <SectionTitle icon={<Wrench className="text-accent" />}>
-              Herramientas
-            </SectionTitle>
-            <div className="flex flex-wrap gap-2">
-              {portfolioData.tools.map((tool) => (
-                <Badge
-                  key={tool}
-                  variant="secondary"
-                  className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors"
-                >
-                  {tool}
-                </Badge>
-              ))}
+            <div>
+              <SectionTitle icon={<Wrench className="text-accent" />}>
+                Herramientas
+              </SectionTitle>
+              <div className="flex flex-wrap gap-2">
+                {portfolioData.tools.map((tool) => (
+                  <Badge
+                    key={tool}
+                    variant="secondary"
+                    className="bg-accent/10 text-accent-foreground hover:bg-accent/20 transition-colors"
+                  >
+                    {tool}
+                  </Badge>
+                ))}
+              </div>
             </div>
           </div>
           <div>
