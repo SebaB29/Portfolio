@@ -3,7 +3,6 @@ import { About } from '@/components/portfolio/about';
 import { Skills } from '@/components/portfolio/skills';
 import { Projects } from '@/components/portfolio/projects';
 import { Education } from '@/components/portfolio/education';
-import { SkillsMatcher } from '@/components/portfolio/skills-matcher';
 import { ContactFooter } from '@/components/portfolio/contact-footer';
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
           <Skills />
           <Projects />
           <Education />
-          <SkillsMatcher />
         </div>
       </main>
       <ContactFooter />
