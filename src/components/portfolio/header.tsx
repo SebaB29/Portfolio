@@ -80,11 +80,11 @@ export function Hero() {
     <section id="hero" className="py-16 text-center">
       <div className="mb-4 flex justify-center">
         <Image
-          src="/1718828905333.jpeg"
+          src="/foto-perfil.jpg"
           alt="Foto de Sebastián Brizuela"
-          width={128}
-          height={128}
-          className="h-32 w-32 rounded-full border-4 border-white object-cover"
+          width={160}
+          height={160}
+          className="h-40 w-40 rounded-full border-4 border-white object-cover"
           priority
         />
       </div>
