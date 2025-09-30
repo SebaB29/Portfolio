@@ -21,7 +21,7 @@ export function About() {
                 <strong>Fecha de nacimiento:</strong> {portfolioData.birthDate}
               </span>
             </div>
-            <div className="flex items-center justify-center sm:justify-start gap-2 text-foreground">
+            <div className="flex items-center justify-center sm:justify-end gap-2 text-foreground">
               <MapPin className="h-5 w-5 text-accent" />
               <span>
                 <strong>Localidad:</strong> {portfolioData.location}
