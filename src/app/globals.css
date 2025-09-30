@@ -32,25 +32,25 @@ html {
   }
 
   .dark {
-    --background: 0 0% 5%;
-    --foreground: 0 0% 92%;
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 92%;
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 92%;
-    --primary: 9 95% 58%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 92%;
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 60%;
-    --accent: 158 58% 63%;
-    --accent-foreground: 0 0% 5%;
+    --background: 240 20% 5%; /* #0A0A0F */
+    --foreground: 240 8% 97%; /* #F5F5F7 */
+    --card: 270 14% 12%; /* #1F1B24 */
+    --card-foreground: 240 8% 97%; /* #F5F5F7 */
+    --popover: 270 14% 12%; /* #1F1B24 */
+    --popover-foreground: 240 8% 97%; /* #F5F5F7 */
+    --primary: 275 76% 53%; /* #8A2BE2 */
+    --primary-foreground: 240 8% 97%; /* #F5F5F7 */
+    --secondary: 270 14% 12%; /* #1F1B24 */
+    --secondary-foreground: 240 8% 97%; /* #F5F5F7 */
+    --muted: 270 14% 12%; /* #1F1B24 */
+    --muted-foreground: 240 5% 65%; /* Adjusted for readability */
+    --accent: 180 100% 50%; /* #00FFFF */
+    --accent-foreground: 240 20% 5%; /* #0A0A0F */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 9 95% 58%;
+    --border: 270 14% 22%; /* Darker border */
+    --input: 270 14% 22%; /* Darker input */
+    --ring: 275 76% 53%; /* #8A2BE2 */
   }
 }
 
