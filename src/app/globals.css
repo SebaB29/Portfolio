@@ -38,8 +38,8 @@ html {
     --card-foreground: 0 0% 92%; /* #EAEAEA */
     --popover: 0 0% 8%; /* #141414 */
     --popover-foreground: 0 0% 92%; /* #EAEAEA */
-    --primary: 150 100% 50%; /* #00FF88 */
-    --primary-foreground: 0 0% 5%; /* #0A0A0A */
+    --primary: 240 100% 50%; /* #0000FF */
+    --primary-foreground: 0 0% 98%; /* #FAFAFA */
     --secondary: 0 0% 8%; /* #141414 */
     --secondary-foreground: 0 0% 92%; /* #EAEAEA */
     --muted: 0 0% 8%; /* #141414 */
@@ -50,7 +50,7 @@ html {
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 150 100% 50%; /* #00FF88 */
+    --ring: 240 100% 50%; /* #0000FF */
   }
 }
 
