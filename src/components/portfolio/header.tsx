@@ -1,8 +1,10 @@
+'use client';
 import { portfolioData } from '@/lib/portfolio-data';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, Briefcase, Github, Linkedin, Mail, Phone } from 'lucide-react';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export function Header() {
   const [isSheetOpen, setSheetOpen] = useState(false);
@@ -76,6 +78,16 @@ export function Header() {
 export function Hero() {
   return (
     <section id="hero" className="py-16 text-center">
+      <div className="mb-4 flex justify-center">
+        <Image
+          src="https://firebasestudio-hosting.web.app/images/1718828905333.jpeg"
+          alt="Foto de Sebastián Brizuela"
+          width={128}
+          height={128}
+          className="h-32 w-32 rounded-full object-cover"
+          priority
+        />
+      </div>
       <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
         {portfolioData.name}
       </h1>
