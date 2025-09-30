@@ -32,11 +32,11 @@ export const portfolioData = {
     "TDA (Pila, Cola, Lista, Árbol, Grafo)",
   ],
   repositories: [
-    { name: "MyFiubaGymBro", url: "https://github.com/SebaB29/MyFiubaGymBro", description: "Una aplicación de gestión de gimnasios diseñada para la comunidad de la facultad, enfocada en la organización y seguimiento de rutinas de ejercicio." },
-    { name: "ReservasHoteles", url: "https://github.com/SebaB29/ReservasHoteles", description: "Un sistema completo para la gestión de reservas de hoteles, desarrollado con una arquitectura robusta y escalable para manejar múltiples transacciones." },
-    { name: "Tetris", url: "https://github.com/SebaB29/Tetris", description: "Una fiel implementación del clásico juego Tetris, desarrollada en C++ con un enfoque en la eficiencia y la jugabilidad." },
-    { name: "Snake", url: "https://github.com/SebaB29/Snake", description: "La clásica serpiente que crece al comer, un proyecto para practicar la lógica de juegos y el manejo de estado en tiempo real." },
-    { name: "CriticasPeliculas", url: "https://github.com/SebaB29/CriticasPeliculas", description: "Una plataforma interactiva para que los usuarios puedan escribir, compartir y debatir críticas de películas, creando una comunidad de cinéfilos." },
-    { name: "Andypolis", url: "https://github.com/SebaB29/Andypolis", description: "Un juego de simulación de construcción y gestión de ciudades, inspirado en los clásicos del género, donde el jugador toma decisiones estratégicas." },
+    { name: "MyFiubaGymBro", url: "https://github.com/SebaB29/MyFiubaGymBro", description: "Plataforma web fitness desarrollada con FastAPI, React y PostgreSQL como proyecto académico en FIUBA." },
+    { name: "ReservasHoteles", url: "https://github.com/SebaB29/ReservasHoteles", description: "Proyecto de Machine Learning para predecir cancelaciones de reservas hoteleras." },
+    { name: "Tetris", url: "https://github.com/SebaB29/Tetris", description: "Tetris en Python: organiza las piezas que caen, completa líneas y supera tu récord." },
+    { name: "Snake", url: "https://github.com/SebaB29/Snake", description: "Guía a la serpiente, come frutas y evita obstáculos en este juego de Snake en Python." },
+    { name: "CriticasPeliculas", url: "https://github.com/SebaB29/CriticasPeliculas", description: "Clasificación de críticas cinematográficas en positivas o negativas mediante Machine Learning." },
+    { name: "Andypolis", url: "https://github.com/SebaB29/Andypolis", description: "Juego universitario de estrategia por turnos donde los jugadores construyen y sabotean para ganar." },
   ],
 };
