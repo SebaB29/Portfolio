@@ -8,7 +8,7 @@ export function About() {
         <CardHeader>
           <CardTitle>Sobre Mí</CardTitle>
         </CardHeader>
-        <CardContent className="space-y-4 text-muted-foreground">
+        <CardContent className="space-y-4 text-muted-foreground text-justify">
           <p>{portfolioData.description}</p>
           <p>{portfolioData.longDescription}</p>
         </CardContent>

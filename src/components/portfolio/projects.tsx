@@ -28,7 +28,9 @@ export function Projects() {
             <Card className="h-full transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg dark:group-hover:shadow-primary/20">
               <CardHeader>
                 <CardTitle className="text-primary">{repo.name}</CardTitle>
-                <CardDescription>{repo.description}</CardDescription>
+                <CardDescription className="text-justify">
+                  {repo.description}
+                </CardDescription>
               </CardHeader>
               <CardFooter>
                 <Button variant="ghost" className="text-accent">
