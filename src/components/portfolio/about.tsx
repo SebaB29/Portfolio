@@ -15,13 +15,13 @@ export function About() {
             <p>{portfolioData.longDescription}</p>
           </div>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
-            <div className="flex items-center gap-2 text-foreground">
+            <div className="flex items-center justify-center sm:justify-start gap-2 text-foreground">
               <Cake className="h-5 w-5 text-accent" />
               <span>
                 <strong>Fecha de nacimiento:</strong> {portfolioData.birthDate}
               </span>
             </div>
-            <div className="flex items-center gap-2 text-foreground">
+            <div className="flex items-center justify-center sm:justify-start gap-2 text-foreground">
               <MapPin className="h-5 w-5 text-accent" />
               <span>
                 <strong>Localidad:</strong> {portfolioData.location}
