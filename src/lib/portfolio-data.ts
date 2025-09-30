@@ -32,11 +32,11 @@ export const portfolioData = {
     "TDA (Pila, Cola, Lista, Árbol, Grafo)",
   ],
   repositories: [
-    { name: "MyFiubaGymBro", url: "https://github.com/SebaB29/MyFiubaGymBro", description: "Gestor de gimnasios para la facultad." },
-    { name: "ReservasHoteles", url: "https://github.com/SebaB29/ReservasHoteles", description: "Sistema de reservas de hoteles." },
-    { name: "Tetris", url: "https://github.com/SebaB29/Tetris", description: "Implementación del clásico juego Tetris." },
-    { name: "Snake", url: "https://github.com/SebaB29/Snake", description: "Implementación del clásico juego Snake." },
-    { name: "CriticasPeliculas", url: "https://github.com/SebaB29/CriticasPeliculas", description: "Plataforma para crítica de películas." },
-    { name: "Andypolis", url: "https://github.com/SebaB29/Andypolis", description: "Juego de simulación de ciudad." },
+    { name: "MyFiubaGymBro", url: "https://github.com/SebaB29/MyFiubaGymBro", description: "Una aplicación de gestión de gimnasios diseñada para la comunidad de la facultad, enfocada en la organización y seguimiento de rutinas de ejercicio." },
+    { name: "ReservasHoteles", url: "https://github.com/SebaB29/ReservasHoteles", description: "Un sistema completo para la gestión de reservas de hoteles, desarrollado con una arquitectura robusta y escalable para manejar múltiples transacciones." },
+    { name: "Tetris", url: "https://github.com/SebaB29/Tetris", description: "Una fiel implementación del clásico juego Tetris, desarrollada en C++ con un enfoque en la eficiencia y la jugabilidad." },
+    { name: "Snake", url: "https://github.com/SebaB29/Snake", description: "La clásica serpiente que crece al comer, un proyecto para practicar la lógica de juegos y el manejo de estado en tiempo real." },
+    { name: "CriticasPeliculas", url: "https://github.com/SebaB29/CriticasPeliculas", description: "Una plataforma interactiva para que los usuarios puedan escribir, compartir y debatir críticas de películas, creando una comunidad de cinéfilos." },
+    { name: "Andypolis", url: "https://github.com/SebaB29/Andypolis", description: "Un juego de simulación de construcción y gestión de ciudades, inspirado en los clásicos del género, donde el jugador toma decisiones estratégicas." },
   ],
 };
