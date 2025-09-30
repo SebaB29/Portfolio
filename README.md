@@ -1,5 +1,9 @@
-# Firebase Studio
+# 🌐 Portfolio Personal
 
-This is a NextJS starter in Firebase Studio.
+Este es mi portfolio web, desarrollado con **Next.js**. El objetivo del proyecto es mostrar mis proyectos, experiencia e información de contacto de forma moderna y accesible.
 
-To get started, take a look at src/app/page.tsx.
+## 📬 Contacto
+Si te interesa mi trabajo o querés ponerte en contacto conmigo, podés encontrarme en:
+- **GitHub:** [SebaB29](https://github.com/SebaB29)
+- **LinkedIn:** [sbrizuela](https://www.linkedin.com/in/sbrizuela/)
+- **Email:** sebita29@gmail.com
