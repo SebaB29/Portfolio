@@ -82,9 +82,9 @@ export function Hero() {
         <Image
           src="/foto-perfil.jpg"
           alt="Foto de Sebastián Brizuela"
-          width={160}
-          height={160}
-          className="h-40 w-40 rounded-full border-4 border-white object-cover"
+          width={200}
+          height={200}
+          className="h-52 w-52 rounded-full border-4 border-primary object-cover"
           priority
         />
       </div>
