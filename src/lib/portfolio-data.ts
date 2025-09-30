@@ -1,42 +1,76 @@
 export const portfolioData = {
-  name: "Sebastián Brizuela",
-  title: "Estudiante de Ingeniería Informática",
-  availability: "Full-time",
-  email: "sebita29@gmail.com",
-  phone: "1130410888",
-  linkedin: "https://www.linkedin.com/in/sbrizuela/",
-  github: "https://github.com/SebaB29",
-  description: "Soy estudiante de Ingeniería Informática en la Universidad de Buenos Aires, buscando mi primer empleo como Desarrollador trainee o junior. Estoy interesado en aprender y crecer en el ámbito de la tecnología, y busco un entorno colaborativo para seguir capacitándome.",
-  longDescription: "Me desempeño bien en trabajos en equipo y tengo un interés particular en áreas como la ciencia de datos y la ciberseguridad. Estoy abierto a colaborar con profesionales experimentados y aprender de ellos mientras aporto mi dedicación y compromiso.",
+  name: 'Sebastián Brizuela',
+  title: 'Estudiante de Ingeniería Informática',
+  availability: 'Full-time',
+  email: 'sebita29@gmail.com',
+  phone: '1130410888',
+  linkedin: 'https://www.linkedin.com/in/sbrizuela/',
+  github: 'https://github.com/SebaB29',
+  birthDate: '29/01/1999',
+  location: 'Beccar, Buenos Aires (CP1643)',
+  description:
+    'Soy estudiante de Ingeniería Informática en la Universidad de Buenos Aires, buscando mi primer empleo como Desarrollador trainee o junior. Estoy interesado en aprender y crecer en el ámbito de la tecnología, y busco un entorno colaborativo para seguir capacitándome.',
+  longDescription:
+    'Me desempeño bien en trabajos en equipo y tengo un interés particular en áreas como la ciencia de datos y la ciberseguridad. Estoy abierto a colaborar con profesionales experimentados y aprender de ellos mientras aporto mi dedicación y compromiso.',
   education: [
     {
-      degree: "Ingeniería Informática",
-      institution: "Universidad de Buenos Aires",
-      status: "Cursando actualmente",
+      degree: 'Ingeniería Informática',
+      institution: 'Universidad de Buenos Aires',
+      status: 'Cursando actualmente',
     },
     {
-      degree: "Bachiller en Ciencias Sociales",
-      institution: "Colegio Martín y Omar",
-      status: "Egresado",
+      degree: 'Bachiller en Ciencias Sociales',
+      institution: 'Colegio Martín y Omar',
+      status: 'Egresado',
     },
   ],
-  languages: ["Python", "C++", "C", "SQL", "Java", "Rust"],
-  tools: ["GIT", "Github", "Gitlab", "Jira", "Trello", "Postman"],
+  languages: ['Python', 'C++', 'C', 'SQL', 'Java', 'Rust'],
+  tools: ['GIT', 'Github', 'Gitlab', 'Jira', 'Trello', 'Postman'],
   knowledge: [
-    "Programación Orientada a Objetos",
-    "Test-Driven Development (TDD)",
-    "Debugging",
-    "Análisis de Datos",
-    "Machine Learning",
-    "Scrum",
-    "TDA (Pila, Cola, Lista, Árbol, Grafo)",
+    'Programación Orientada a Objetos',
+    'Test-Driven Development (TDD)',
+    'Debugging',
+    'Análisis de Datos',
+    'Machine Learning',
+    'Scrum',
+    'TDA (Pila, Cola, Lista, Árbol, Grafo)',
   ],
   repositories: [
-    { name: "MyFiubaGymBro", url: "https://github.com/SebaB29/MyFiubaGymBro", description: "Plataforma web fitness desarrollada con FastAPI, React y PostgreSQL como proyecto académico en FIUBA." },
-    { name: "ReservasHoteles", url: "https://github.com/SebaB29/ReservasHoteles", description: "Proyecto de Machine Learning para predecir cancelaciones de reservas hoteleras." },
-    { name: "Tetris", url: "https://github.com/SebaB29/Tetris", description: "Tetris en Python: organiza las piezas que caen, completa líneas y supera tu récord." },
-    { name: "Snake", url: "https://github.com/SebaB29/Snake", description: "Guía a la serpiente, come frutas y evita obstáculos en este juego de Snake en Python." },
-    { name: "CriticasPeliculas", url: "https://github.com/SebaB29/CriticasPeliculas", description: "Clasificación de críticas de películas en positivas o negativas mediante Machine Learning." },
-    { name: "Andypolis", url: "https://github.com/SebaB29/Andypolis", description: "Juego universitario de estrategia por turnos donde los jugadores construyen y sabotean para ganar." },
+    {
+      name: 'MyFiubaGymBro',
+      url: 'https://github.com/SebaB29/MyFiubaGymBro',
+      description:
+        'Plataforma web fitness desarrollada con FastAPI, React y PostgreSQL como proyecto académico en FIUBA.',
+    },
+    {
+      name: 'ReservasHoteles',
+      url: 'https://github.com/SebaB29/ReservasHoteles',
+      description:
+        'Proyecto de Machine Learning para predecir cancelaciones de reservas hoteleras.',
+    },
+    {
+      name: 'Tetris',
+      url: 'https://github.com/SebaB29/Tetris',
+      description:
+        'Tetris en Python: organiza las piezas que caen, completa líneas y supera tu récord.',
+    },
+    {
+      name: 'Snake',
+      url: 'https://github.com/SebaB29/Snake',
+      description:
+        'Guía a la serpiente, come frutas y evita obstáculos en este juego de Snake en Python.',
+    },
+    {
+      name: 'CriticasPeliculas',
+      url: 'https://github.com/SebaB29/CriticasPeliculas',
+      description:
+        'Clasificación de críticas de películas en positivas o negativas mediante Machine Learning.',
+    },
+    {
+      name: 'Andypolis',
+      url: 'https://github.com/SebaB29/Andypolis',
+      description:
+        'Juego universitario de estrategia por turnos donde los jugadores construyen y sabotean para ganar.',
+    },
   ],
 };
