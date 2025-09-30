@@ -11,9 +11,9 @@ export function Header() {
 
   const navItems = [
     { name: 'Sobre mí', href: '#about' },
+    { name: 'Educación', href: '#education' },
     { name: 'Habilidades', href: '#skills' },
     { name: 'Proyectos', href: '#projects' },
-    { name: 'Educación', href: '#education' },
     { name: 'Contacto', href: '#contact' },
   ];
 
@@ -80,7 +80,7 @@ export function Hero() {
     <section id="hero" className="py-16 text-center">
       <div className="mb-4 flex justify-center">
         <Image
-          src="https://firebasestudio-hosting.web.app/images/1718828905333.jpeg"
+          src="/1718828905333.jpeg"
           alt="Foto de Sebastián Brizuela"
           width={128}
           height={128}
@@ -99,6 +99,14 @@ export function Hero() {
         <span>Disponibilidad: {portfolioData.availability}</span>
       </div>
       <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-4">
+        <div className="flex items-center gap-2">
+          <Mail className="h-5 w-5" />
+          <span>{portfolioData.email}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Phone className="h-5 w-5" />
+          <span>{portfolioData.phone}</span>
+        </div>
         <a
           href={portfolioData.linkedin}
           target="_blank"
@@ -117,14 +125,6 @@ export function Hero() {
           <Github className="h-5 w-5" />
           <span>GitHub</span>
         </a>
-        <div className="flex items-center gap-2">
-          <Mail className="h-5 w-5" />
-          <span>{portfolioData.email}</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <Phone className="h-5 w-5" />
-          <span>{portfolioData.phone}</span>
-        </div>
       </div>
     </section>
   );
