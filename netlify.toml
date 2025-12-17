@@ -1,0 +1,52 @@
+# Configuración de Netlify para Portfolio
+# Continuous Deployment para rama dev (staging) y main (producción)
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Configuración para producción (rama main)
+[context.production]
+  command = "npm run build"
+  publish = ".next"
+  
+[context.production.environment]
+  NODE_ENV = "production"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Configuración para staging/preview (rama dev)
+[context.dev]
+  command = "npm run build"
+  publish = ".next"
+  
+[context.dev.environment]
+  NODE_ENV = "production"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Deploy previews para Pull Requests
+[context.deploy-preview]
+  command = "npm run build"
+  publish = ".next"
+
+# Deploy previews para otras ramas
+[context.branch-deploy]
+  command = "npm run build"
+  publish = ".next"
+
+# Configuración de Node.js
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Headers de seguridad
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Redirects (si necesitas configurar alguno en el futuro)
+# [[redirects]]
+#   from = "/old-path"
+#   to = "/new-path"
+#   status = 301
