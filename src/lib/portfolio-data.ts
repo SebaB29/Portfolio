@@ -67,10 +67,10 @@ export const portfolioData = {
         'Clasificación de críticas de películas en positivas o negativas mediante Machine Learning.',
     },
     {
-      name: 'Andypolis',
-      url: 'https://github.com/SebaB29/Andypolis',
+      name: 'RoomRTC',
+      url: 'https://github.com/SebaB29/RoomRTC',
       description:
-        'Juego universitario de estrategia por turnos donde los jugadores construyen y sabotean para ganar.',
+        'Real-time P2P video calls, inspired by WebRTC and built in Rust 🦀.',
     },
   ],
 };
